@@ -1,11 +1,12 @@
 from flask import Flask
 from PIL import Image
-import os
 import io
 from predict import get_predict_result
 from flask import request
 import flask
+
 app = Flask(__name__)
+
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -17,4 +18,9 @@ def predict():
         data["success"] = True
         data["data"] = result
         return flask.jsonify(data), 200
-    return flask.jsonify(data),404
+    return flask.jsonify(data), 404
+
+
+@app.route("/test", methods=["GET"])
+def test():
+    return "ok"
