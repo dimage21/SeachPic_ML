@@ -18,7 +18,3 @@ def predict():
         data["data"] = result
         return flask.jsonify(data), 200
     return flask.jsonify(data),404
-
-
-if __name__== "__main__":
-    app.run()
