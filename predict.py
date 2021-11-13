@@ -3,7 +3,7 @@ from labels import place_labels
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model('model/mobilenet_argumentation_7.h5')
+model = load_model('./model/model.h5')
 
 def preprocess_img(image):
     if image.mode != "RGB":
