@@ -1,0 +1,11 @@
+README.md
+CNN/
+
+Dockerfile*
+.dockerignore
+.git
+.idea
+__pycache__
+venv/
+
+.DS_Store
