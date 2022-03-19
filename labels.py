@@ -47,12 +47,12 @@ place_labels = [
         ["Everland","에버랜드"],
         ["KleinBlueJeju", "클랭블루"],
         ["UilsonHouse", "우일선 선교사 사택"],
-        ["DamyangMetaStreet", "담양 메타세콰이어길"],
-        ["Dodubong", "도두봉 키세스존"],
+        ["DamyangMetaStreet", "메타세콰이아가로수길"],
+        ["Dodubong", "도두봉"],
         ["KamAkSanBridge", "감악산 출렁다리"],
-        ["Shinsegae", "신세계본점"],
+        ["Shinsegae", "신세계백화점 본점"],
         ["Sungnyemun", "숭례문"],
-        ["YongSanPark", "용산공원"],
+        ["YongSanPark", "용산가족공원"],
 ]
 
 place_labels.sort(key=lambda x: x[0])
